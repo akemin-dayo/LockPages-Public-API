@@ -1,0 +1,9 @@
+Package: net.angelxwind.lpbarebonesexample
+Name: LPBarebonesExample
+Depends: mobilesubstrate, firmware (>= 7.0), com.dba-tech.lockpages
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Barebones example for LockPages.
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Author: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Section: Tweaks
