@@ -42,6 +42,8 @@
 }
 
 -(NSInteger) priority {
-	return 10;
+	// Using a priority value of -5 because Forecast's priority value is 0
+	// This makes it so that Forecast will come before PineappleSpinnerLS in order
+	return -5;
 }
 @end
