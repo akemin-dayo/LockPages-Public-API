@@ -15,6 +15,8 @@ I've written two open-source example projects, which are included in this Git re
 
 `PineappleSpinnerLS` is basically a complete tweak I wrote in 30 minutes or so. It adds a fully-functional page to your lock screen where you can tap a button to spin a pineapple, and tap another button to accelerate it (much to its dismay).
 
-`LPBarebonesExample` is a barebones project that contains just enough code to create a LockPages page and nothing else. The view is completely empty. You can use this project to quickly create a tweak by adding code onto `ExampleView`.
+`LPBarebonesExample` is a barebones tweak that contains just enough code to create a LockPages page and nothing else. The view is completely empty. You can use this to quickly create a tweak by adding code onto `ExampleView`.
+
+`LPInterfaceBuilderExample` is a barebones tweak that loads its entire UIView from a NIB (compiled XIB/Interface Builder file). I more or less wrote this code for [@128keaton](https://twitter.com/128keaton), who expressed interest in writing a LockPages tweak using XIB files. So you have him to thank for giving me this idea at all ;P
 
 Also, make sure you add `com.dba-tech.lockpages` to your control file's `Depends:` field!
