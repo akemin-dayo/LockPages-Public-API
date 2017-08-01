@@ -4,6 +4,6 @@ Depends: mobilesubstrate, firmware (>= 7.0), com.dba-tech.lockpages
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Barebones example for LockPages that makes use of Interface Builder XIB/NIB files.
-Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
-Author: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Maintainer: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Author: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
 Section: Tweaks
