@@ -1,7 +1,7 @@
 Package: net.angelxwind.pineapplespinnerls
 Name: PineappleSpinnerLS
 Depends: mobilesubstrate, firmware (>= 7.0), com.dba-tech.lockpages
-Version: 1.0.2
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Spin a pineapple on your lock screen!
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.pineapplespinnerls

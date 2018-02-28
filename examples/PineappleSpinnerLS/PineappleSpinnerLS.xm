@@ -2,7 +2,10 @@
 #import <lockpages/LPPageController.h>
 #import "PineappleViewController.h"
 
-%ctor {
+%hook SpringBoard
+-(instancetype) init {
 	PineappleViewController *_pineapplePage = [[PineappleViewController alloc] init];
 	[[LPPageController sharedInstance] addPage:_pineapplePage];
+	return %orig();
 }
+%end
